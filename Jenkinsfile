@@ -9,6 +9,7 @@ pipeline{
         stage("Stage2"){
             steps{
                 dotnet build
+                dotnet run
             }
         }
     }
